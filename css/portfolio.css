@@ -38,8 +38,7 @@ body{
 }
 
 .header-link:hover,
-.header-link:focus,
-.header-link:active{
+.header-link:focus{
     color: #2196F3;
     cursor: vector;
 }
@@ -61,117 +60,53 @@ body{
 }
 
 .header-contact-link:hover,
-.header-contact-link:focus,
-.header-contact-link:active{
+.header-contact-link:focus{
     color: #2196F3;
     cursor: vector;
 }
 
 /* --------------------------------------------------MAIN-TOP-------------------------------------- */
 
-.main-top{
-    background-color: #2F303A;
-}
-
-.main-top-title{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-
-.main-top-btn{  
-    font-family: inherit;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
-}
-
 .main-top-btn{
-    width: 200px;
-    height: 50px;
-    background: #2196F3;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-}
-
-
-/* --------------------------------------------------MAIN-MIDDLE-------------------------------------- */
-
-.visually-hidden{
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
-.main-middle-subtitle{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
     letter-spacing: 0.03em;
-    text-transform: uppercase;
     color: #212121;
 }
 
-.main-middle-text{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #757575;
-    
+.main-top-btn{
+    width: 130px;
+    height: 38px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.main-top-btn:hover,
+.main-top-btnk:focus,
+.main-top-btnk:active{
+    background: #2196F3;
+    color: #FFFFFF;
+    cursor: vector;
 }
 
 /* --------------------------------------------------MAIN-BOTTOM-------------------------------------- */
 
-.main-bottom-title{
+.main-bottom-subtitle{
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-
-}
-
-/* --------------------------------------------------MAIN-TEAM-------------------------------------- */
-
-.main-team-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
     color: #212121;
 }
 
-.main-team-subtitle{
-    font-weight: 500;
+.main-bottom-text{
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.main-team-text{font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+    line-height: 1.88;
     letter-spacing: 0.03em;
     color: #757575;
 }
