@@ -131,15 +131,13 @@ body{
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--main-title-color);
-}
-
-.main-top-btn{
     width: 200px;
     height: 50px;
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
+
 
 .main-top-btn:hover,
 .main-top-btn:focus,
@@ -218,24 +216,7 @@ body{
 /* --------------------------------------------------MAIN-TOP-------------------------------------- */
 
 .main-top-btn-porfolio{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color);
-}
-
-.main-top-btn-porfolio{
-    width: 130px;
-    height: 38px;
-    background: var(--second-background-color);
     border-radius: 4px;
-}
-
-.carrent-btn-porfolio{
     font-family: inherit;
     font-style: normal;
     font-weight: 500;
@@ -243,15 +224,11 @@ body{
     line-height: 26px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: var(--main-title-color);
-}
-
-.carrent-btn-porfolio{
+    color: var(--second-title-color);
     width: 130px;
     height: 38px;
     background: var(--second-background-color);
-    border-radius: 4px;
-    background: var(--accent-color);
+
 }
 
 .main-top-btn-porfolio:hover,
